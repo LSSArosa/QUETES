@@ -1,0 +1,71 @@
+ =====================
+ ===   Challenge   ===
+ =====================
+
+Rédiger le pseudo code afin de résoudre le problème suivant:
+------------------------------------------------------------
+
+Demander à l'utilisateur son age, lui retourner sont année de naissance.
+Vous posterez le lien de votre Gist.
+
+Critéres de validation:
+
+	Utilisation du pseudo-code
+	Indentation respectée
+	L'algorithme résoud le problème évoqué
+
+**************************************************
+mardi 10 janvier 2017			v1.0
+WILD CODE SCHOOL
+par Elsa Delgado
+**************************************************
+
+définition des variables:
+
+		v_age (input) 
+		v_mess_deb
+		v_annee_naiss1
+		v_annee_naiss2 
+		v_mess_fin
+		v_reponse (output)
+		v_annee_cour (année courante)
+
+initialisation variables:
+		v_age <- 0
+		v_annee_naiss1 <- 0
+		v_annee_naiss2 <- 0
+		v_mess_deb <- "Bonjour, veuillez saisir votre age"
+		v_mess_fin1 <- "Si votre anniversaire est déjà passé cette année, votre année de naissance est "
+		v_mess_fin2 <- ", sinon votre année de naissance est "
+		v_reponse  <- v_mess_fin1 + v_annee_naiss_1 + v_mess_fin2 + v_annee_naiss_2
+		v_annee_cour <- 0	
+
+
+Traitement_principal
+
+	écrire v_mess_deb
+	lire v_age
+
+	tant que v_age vide ou <0
+			alors 
+				écrire v_mess_deb
+			sinon
+				faire t_calcul_annee
+				ecrire v_reponse
+	fin tant que
+
+Fin traitement_principal
+
+
+t_calcul_annee 
+		lire date system (si nécessaire)
+		v_annee_cour <- date_system	
+		v_annee_naiss1 <- v_annee_cour - v_age
+		v_annee_naiss2 <- v_annee_naiss1 - 1
+fin t_calcul_annee
+
+
+
+
+
+
