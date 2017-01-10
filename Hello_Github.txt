@@ -1,5 +1,5 @@
 **********
-Challenge				janvier 2017		v1.1
+Challenge				janvier 2017		v1.2
 ***********
 
 Objectifs
@@ -29,5 +29,6 @@ Le dépot contient au moins un fichier README.md
 
 
 changement nom user sur l'Ordi
-
+		maxime-coustes => Elsa Delgado
+		
 
