@@ -1,6 +1,17 @@
 **********
-Challenge				janvier 2017
+Challenge				janvier 2017		v1.1
 ***********
+
+Objectifs
+
+Versionner mon code avec git sur ma machine
+Héberger mon code sur Github
+ Étapes
+
+Se créer un compte sur github
+Découvrir le versionnement du code avec git
+Configurer Git et Github sur ma machine
+
 
 Créer un dépot git et l'héberger sur github depuis la ligne de commande
 
@@ -17,15 +28,6 @@ Le dépot contient au moins un fichier README.md
 -------------------------------------------------------------
 
 
-Objectifs
-
-Versionner mon code avec git sur ma machine
-Héberger mon code sur Github
- Étapes
-
-Se créer un compte sur github
-Découvrir le versionnement du code avec git
-Configurer Git et Github sur ma machine
-
+changement nom user sur l'Ordi
 
 
