@@ -14,3 +14,8 @@ troisième
 
 
 	modif de test
+
+	ajout d'un commit
++ un lien
+https://www.grafikart.fr/formations/git/init-config-add-log
+
