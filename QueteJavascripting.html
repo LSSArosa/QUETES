@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script>
+		// alert("Hey mon ami ! Tu aimes ca les patates ?");
+		var question = prompt("Hey mon ami ! Tu aimes ca les patates ?", 'OUI ');
+		if ((question === 'OUI' )|| (question === 'OUI ')) {
+				// var patate = ['#','##','###','####','#####','######','#######'] ;
+				var tasdepatates = '';
+		for (var i = 0; i < 7; i++) {
+				 // console.log(patate[i]) ;
+				 tasdepatates = tasdepatates + '#' ;
+				 console.log(tasdepatates) ;
+				};			 		 	
+		} else if (question === 'NON') {
+					 MaReponse = "Mais ... pourquoi donc? c'est si bon! ";
+					 alert(MaReponse);
+			} else  { MaReponse='Je vous sens comme tiraille';
+					alert(MaReponse);
+				};
+		</script>
+</body>
+</html>
