@@ -1,0 +1,30 @@
+
+
+body {
+  padding-top: 10px;
+}
+[class*="col-"] {
+	/*height: 20%;*/
+	min-height: 5rem;
+}
+
+[class*="plein"] {
+	background-color: green;
+	
+	}
+[class*="row"],  {	
+ 
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+
+  border: 0.5px solid red;
+  min-height: 50rem;
+  min-width: 40rem;
+
+}
