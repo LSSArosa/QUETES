@@ -33,8 +33,12 @@
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="saisir une ville">Quel temps fait-il à :</label>
 					<div class="col-md-4">
-						<input id="saisir une ville" name="saisir une ville" type="text" placeholder="votre ville" class="form-control input-md">
+						<input id="ville_saisie" name="saisir une ville" type="text" placeholder="votre ville" class="form-control input-md">
 						<span class="help-block">ex: Bordeaux, Pessac</span>
+						<script type="text/javascript">
+						var maVille = ville_saisie
+							alert(maVille)
+						</script>
 					</div>
 				</div>
 				<!-- Search input-->
@@ -48,6 +52,10 @@
 			</fieldset>
 		</form>
 		</div> 
+		
+		<script type="text/javascript" src="recherche_meteo.js" charset="utf-8"></script>
+
+
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
